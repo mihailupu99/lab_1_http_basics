@@ -79,3 +79,4 @@ Studierea principiilor de bază ale protocolului HTTP.
 
 - curl -X POST http://sandbox.usm.md/quest -H "User-Agent: Lupu Mihai"
 - Dupa completarea pașilor cuvantul secret este `secret: JTkfA0UECg0tCFlGUA==`.
+  ![Secret.](images/3q.png)
