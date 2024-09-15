@@ -45,15 +45,20 @@ Studierea principiilor de bază ale protocolului HTTP.
   `curl -L -X POST http://sandbox.com/cars/1 -H "Content-Type: text/plain" -d "make=Toyota&model=Corolla&year=2020"`
 
 3. Scrieți o cerere de tip PUT către server la adresa http://sandbox.com/cars/1, indicând în antetul User-Agent numele și prenumele dvs., în antetul Content-Type valoarea application/json, iar în corpul cererii următorii parametri:
-   ````{
+
+   ```
+   {
    "make": "Toyota",
    "model": "Corolla",
    "year": 2021
-   }```
+   }
+   ```
+
    - `curl -X PUT http://sandbox.com/cars/1 -H "User-Agent: Lupu Mihai" -H "Content-Type: application/json" -d "make=Toyota&model=Corolla&year=2020"`
-   ````
+
 4. Scrieți unul dintre posibilele răspunsuri ale serverului la cererea anterioară.
-   ````HTTP/1.1 200 OK
+   ```
+   HTTP/1.1 200 OK
    Content-Type: application/json
    Server: Apache/2.4.41 (Ubuntu)
    Date: Sun, 15 Sep 2024 12:00:00 GMT
@@ -65,8 +70,8 @@ Studierea principiilor de bază ale protocolului HTTP.
    "model": "Corolla",
    "year": 2021
    }
-   }```
-   ````
+   }
+   ```
 
 ### Sarcina nr. 3. Sarcina suplimentară. HTTP_Quest
 
