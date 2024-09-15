@@ -19,15 +19,15 @@ Studierea principiilor de bază ale protocolului HTTP.
 5. Răspundeți la următoarele întrebări:
 
 - Ce metodă HTTP a fost utilizată pentru a trimite cererea?
-- _Pentru a trimite cererea de autentificare a fost utilizată metoda POST._
+  - _Pentru a trimite cererea de autentificare a fost utilizată metoda POST._
 - Ce anteturi au fost trimise în cerere?
-- ![Anteturile trimise în cerere](images/q5b.png)
+  - ![Anteturile trimise în cerere](images/q5b.png)
 - Ce parametri au fost trimiși în cerere?
-- ![Parametrii trimiși în cerere, valorile pentru username și passowrd.](images/q5c.png)
+  - ![Parametrii trimiși în cerere, valorile pentru username și passowrd.](images/q5c.png)
 - Ce cod de stare a fost returnat de server?
-- _A fost returnat codul de stare (401 Unauthorized)._
+  - _A fost returnat codul de stare (401 Unauthorized)._
 - Ce anteturi au fost trimise în răspuns?
-- ![Anteturile trimise în răspuns.](images/q5e.png)
+  - ![Anteturile trimise în răspuns.](images/q5e.png)
 
 6. Repetați pașii 3-5, introducând date corecte pentru autentificare (username: admin, password: password).
    ![Cerere de tip POST cu codul de stare 200 OK returnat.](images/q6.png)
